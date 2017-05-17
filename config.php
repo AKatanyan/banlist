@@ -2,13 +2,13 @@
 
 // Подключение к БД
 
-   $server = "db4free.net"; // Сервер от БД
+   $server = "localhost"; // Сервер от БД
    
-   $dbuser = "mrswipe"; // Пользователь БД
+   $dbuser = "admin"; // Пользователь БД
    
-   $dbpass = "D33St67Zx99Fg"; // Пароль от БД
+   $dbpass = "admin"; // Пароль от БД
    
-   $dbname = "mrswipe"; // Название БД
+   $dbname = "server"; // Название БД
    
 mysql_connect($server, $dbuser, $dbpass);
 
