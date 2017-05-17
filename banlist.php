@@ -76,30 +76,30 @@ $col = "#ffffff";
 
 echo "<tr bgcolor=$col>";
 if($row['type'] == "5"){
-echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/unban.png'></td>";
+echo "<td><img src='/modules/banlist/img/unban.png'></td>";
 }else{
     if($row['type'] == "3"){
-    echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/kick.png'></td>";
+    echo "<td><img src='/modules/banlist/img/kick.png'></td>";
     }else{
         if($row['type'] == "2"){
-        echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/warn.png'></td>";
+        echo "<td><img src='/modules/banlist/img/warn.png'></td>";
         }else{
             if($row['type'] == "0"){
-            echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/ban.png'></td>";
+            echo "<td><img src='/modules/banlist/img/ban.png'></td>";
             }else{
                 if($row['type'] == "1"){
-                echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/ban.png'></td>";
+                echo "<td><img src='/modules/banlist/img/ban.png'></td>";
                 }else{
                     if($row['type'] == "4"){
-                    echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/warn.png'></td>";
+                    echo "<td><img src='/modules/banlist/img/warn.png'></td>";
                     }else{
                         if($row['type'] == "6"){
-                        echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/warn.png'></td>";
+                        echo "<td><img src='/modules/banlist/img/warn.png'></td>";
                         }else{
                             if($row['type'] == "9"){
-                            echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/ban.png'></td>";
+                            echo "<td><img src='/modules/banlist/img/ban.png'></td>";
                             }else{
-                            echo "<td><img src='http://herocraft.besaba.com/modules/banlist/img/warn.png'></td>";
+                            echo "<td><img src='/modules/banlist/img/warn.png'></td>";
                             }
                         }
                     }
